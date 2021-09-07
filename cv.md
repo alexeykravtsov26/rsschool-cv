@@ -37,3 +37,14 @@ function solution(a, b){
   }
 }
 ```
+
+### Courses
+
+* JavaScript on [learn.javascript.ru](https://learn.javascript.ru/)
+* HTML/CSS on [www.codecademy.com](https://www.codecademy.com/)
+* CS50 course
+
+### Languages
+
+1. **Russian** - *native speaker*
+2. **English** - *B1, every day I try to learn something new, and improve my skills*
