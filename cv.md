@@ -2,8 +2,8 @@
 
 #### Contacts
 ##### My number: *+375-25-694-01-51*
-##### Email: *alexeykravtsov26@gmail.com*
-##### [Telegram:](https://t.me/Aleksey_Kravtsov_17)
+##### Email: *(alexeykravtsov26@gmail.com)*
+##### [Telegram](https://t.me/Aleksey_Kravtsov_17)
 
 
 #### About me
