@@ -5,18 +5,28 @@
     <title>Aleksey Kravtsov</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
   </head>
   <body>
     <main class="cv-main">       
-      <img class="cv-photo" src="photo.png" alt="cv-photo" width="225px" height="300px">
+      <img class="cv-photo" src="photo.png" alt="cv-photo">
       <h1 class="cv-name">Aleksey Kravtsov</h1>  
           
       <section class="cv-contacts">
         <h3>Contacts</h3>
-        <p>My number: +375-25-694-01-51</p>
-        <p>Email:</p> 
-        <p><a href="#">alexeykravtsov26@gmail.com</a></p>
-        <p><a href="#">Telegram</a></p>
+        <ul class="cv-contacts-list">
+          <li>
+            <a class="cv-contacts-list-link" href="tel:80256940151">My number: +375-25-694-01-51</a>
+          </li>
+          <li>
+            <a class="cv-contacts-list-link" href="mailto:alexeykravtsov26@gmail.com">Email: alexeykravtsov26@gmail.com</a>
+          </li>
+          <li>
+            <a class="cv-contacts-list-link" href="https://t.me/Aleksey_Kravtsov_17">Telegram</a>
+          </li>
+        </ul>
       </section>
 
       <div class="clear"></div>
@@ -50,19 +60,19 @@
         The strings will not be the same length, but they may be empty ( zero length ).</p>
         <pre>
           <code>
-            function solution(a, b){
-            // your code here
-            let c = '';
-            a.trim();
-            b.trim();
-            if (a.length < b.length) {
-              c = a + b + a;
-              return c;
-            } else {
-              c = b + a + b;
-              return c;
-            }
-          }
+      function solution(a, b){
+        
+      let c = '';
+      a.trim();
+      b.trim();
+      if (a.length &lt; b.length) {
+        c = a + b + a;
+        return c;
+      } else {
+        c = b + a + b;
+        return c;
+      }
+     }
           </code>
         </pre>
       </section>
@@ -84,5 +94,14 @@
         </ol>
       </section>
     </main>
+    <footer class="cv-footer">
+      <a href="https://github.com/alexeykravtsov26">
+        My Github
+      </a>
+      <p>© 2021 by Aleksey Kravtsov</p>
+      <a href="https://rs.school/images/rs_school_js.svg">
+        <img src="img/rs_school_js.svg" width="86" height="32" alt="RS School">
+      </a>
+    </footer>
   </body>
 </html>
