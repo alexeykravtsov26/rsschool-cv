@@ -1,0 +1,153 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    font-family: 'Gideon Roman', cursive;
+    font-weight: 600;
+}
+
+.cv-main {
+    position: relative;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #bbc4ba;
+    border: 1px solid #f5eded;
+    padding: 2%;
+}
+
+.cv-photo {
+    display: block;
+    float: left;
+    padding-right: 5%;
+}
+
+.cv-name {
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.cv-contacts {
+    display: block;
+}
+
+.cv-contacts-list {
+    list-style-type: none;
+    line-height: 3em;
+}
+
+.cv-contacts-list-link {
+    text-decoration: none;
+    color: rgb(100, 75, 75);
+}
+
+.cv-about-me {
+    display: block;
+    text-align: justify;
+    background-color: floralwhite;
+    padding: 5px 20px;
+    border: 1px solid floralwhite;
+}
+
+.cv-about-me p {
+    color: rgb(88, 87, 87);
+}
+
+.cv-skills {
+    display: block;
+    padding: 5px 20px;
+}
+
+.cv-skills ul li {
+    list-style-image: url('code-icon.png');
+    text-align: left;
+    padding-bottom: 5px;
+    color: rgb(92, 103, 114);
+}
+
+.cv-code-example {
+    display: block;
+    background-color: rgb(233, 219, 194);
+    padding: 5px 20px;
+    border: 1px solid rgb(233, 219, 194);
+}
+
+.cv-code-example h4 {
+    color:rgb(88, 88, 88);
+}
+
+.cv-code-example p {
+    color:rgb(114, 114, 114);
+}
+
+.cv-code-example pre {
+    background-color: whitesmoke;
+}
+
+.cv-courses {
+    display: block;
+    padding: 5px 20px;
+}
+
+.cv-courses ul li {
+    list-style-type: circle;
+    color:rgb(59, 58, 58);
+}
+
+.cv-courses a {
+    text-decoration: none;
+    color: rgb(90, 110, 51);
+}
+
+.cv-languages {
+    display: block;
+    padding: 5px 20px;
+}
+
+.cv-languages ol li {
+    color: rgb(59, 58, 58);
+}
+
+.clear {
+    clear: both;
+}
+
+.cv-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 5px 15px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.cv-footer-github {
+    display: grid;
+    grid-template-columns: 0.25fr 1.75fr;
+    justify-items: start;
+    padding-top: 5%;
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+}
+
+.cv-footer-github p {
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.cv-footer-github-logo {
+    display: grid;
+    justify-items: start;
+}
+
+.cv-footer-copyright {
+    display: grid;
+    justify-items: center;
+    padding-top: 6%;
+}
+
+.cv-footer-logo {
+    display: grid;
+    justify-items: end;
+}
