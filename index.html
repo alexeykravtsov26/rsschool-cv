@@ -8,14 +8,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="rainbow.min.css">
+    <script src="highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script>
+      console.log(`Критерии оценки:\n
+      вёрстка валидная +10\n
+      вёрстка семантическая +20\n
+      для оформления СV используются css-стили +10\n
+      контент размещается в блоке, который горизонтально центрируется на странице. 
+      Фоновый цвет, если он есть, тянется во всю ширину страницы +10\n
+      вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется 
+      горизонтальная полоса прокрутки, при этом всё содержание страницы сохраняется +10\n
+      на странице СV присутствует изображение - фото или аватарка автора CV, пропорции изображения 
+      не искажены, у изображения есть атрибут alt (может быть пустым) +10\n
+      контакты для связи и перечень навыков оформлены в виде списка ul > li +10\n
+      CV содержит контакты для связи, краткую информацию о себе, перечень навыков, 
+      информацию об образовании и уровне английского +10\n
+      CV содержит пример вашего кода (например, решение задачи с сайта codewars) с подсветкой кода. 
+      Для подсветки кода может использоваться js-библиотека, например, highlight.js +10\n
+      CV выполнено на английском языке +10\n
+      выполнены требования к Pull Request: есть ссылка на задание, скриншот страницы СV, 
+      ссылка на деплой страницы CV на GitHub Pages, выполнена самооценка 
+      (самооценку расписываем по пунктам критериев оценки, указывая балл за каждый пункт) +10\n
+      итого: 120 баллов `);
+    </script>
   </head>
   <body>
-    <main class="cv-main">       
-      <img class="cv-photo" src="photo.png" alt="cv-photo">
-      <h1 class="cv-name">Aleksey Kravtsov</h1>  
-          
-      <section class="cv-contacts">
-        <h3>Contacts</h3>
+    <main class="cv-main">
+      <header class="cv-header">     
+        <img class="cv-photo" src="photo.png" alt="cv-photo">
+        <h1 class="cv-name">Aleksey Kravtsov</h1>
+      </header>    
+      <address class="cv-contacts">
         <ul class="cv-contacts-list">
           <li>
             <a class="cv-contacts-list-link" href="tel:80256940151">My number: +375-25-694-01-51</a>
@@ -27,18 +52,22 @@
             <a class="cv-contacts-list-link" href="https://t.me/Aleksey_Kravtsov_17">Telegram</a>
           </li>
         </ul>
-      </section>
+      </address>
 
       <div class="clear"></div>
       
       <section class="cv-about-me">
         <h3>About me</h3>
-        <p>My basic goal is to become a web developer.
+        <p>
+          <em>
+          My basic goal is to become a web developer.
         I started to get interested in development a couple of months ago,
         but I had some experience in programming earlier.
         The best things of me are tenacity, learnability, aim to learn new
         things and focus on result. I have experience in work by a support
-        engineer, but now I try to change my direction to become a web developer.</p>
+        engineer, but now I try to change my direction to become a web developer.
+          </em>
+        </p>
       </section>
       
       <section class="cv-skills">
@@ -59,8 +88,8 @@
         with the shorter string on the outside and the longer string on the inside.
         The strings will not be the same length, but they may be empty ( zero length ).</p>
         <pre>
-          <code>
-      function solution(a, b){
+          <code class="language-javascript">
+      function solution(a, b) {
         
       let c = '';
       a.trim();

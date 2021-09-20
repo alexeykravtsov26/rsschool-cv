@@ -6,6 +6,12 @@
     font-weight: 600;
 }
 
+body {
+    background-color: rgb(248, 247, 247);
+    margin: 0;
+    padding: 0;
+}
+
 .cv-main {
     position: relative;
     margin: 0 auto;
@@ -19,6 +25,7 @@
     display: block;
     float: left;
     padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 .cv-name {
@@ -80,9 +87,9 @@
     color:rgb(114, 114, 114);
 }
 
-.cv-code-example pre {
+/*.cv-code-example pre {
     background-color: whitesmoke;
-}
+}*/
 
 .cv-courses {
     display: block;
